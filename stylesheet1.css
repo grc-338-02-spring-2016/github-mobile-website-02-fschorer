@@ -1,0 +1,165 @@
+.container {
+    height: auto;
+    margin: 0em;
+}
+
+h1 {
+    font-family: 'Carton', serif;
+    color: #084033;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 200;
+    padding: 1em 0 .4em 0;
+}
+
+body{margin: 0em;}
+/*this is the contact title*/
+h3 {
+   font-family: 'Carton', serif;
+    text-align: center;
+    color: #8FBDD4;
+    font-size: 3em;
+    font-weight: 50;
+    padding: 10% 0 2% 0;
+}
+/*this is the about me title*/
+h4 {
+    font-family: 'Carton', serif;
+    text-align: center;
+    color: #8A7CA3;
+    font-size: 3em;
+    font-weight: 50;
+    padding: 11% 0 2% 0;
+}
+.p2   {
+    font-family: Avenir;
+    font-size: 2.5em;
+    line-height: 1.8em;
+    text-align: center;
+    padding: 1em;
+}
+p {
+    font-family: Avenir;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+    padding: 1em;
+}
+
+
+
+
+/*Here are two pseudo class selectors to apply tp blockquote*/
+
+
+section {
+    padding: 1% 1% 1% 1%;
+    text-align: left;
+    overflow: hidden;
+}
+
+section h3 {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 3% 0 0 0;
+}
+
+section p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/*This sets the maximum width of the image to no more than the containing element*/
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+em {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #706f7e;
+    display: block;
+    padding: 0 0 1% 0;
+}
+
+.professional {
+    margin: 3% 0 0 0;
+}
+
+.professional p{
+    margin: 0 0 1% 0;
+}
+
+/*Start of Nav menu*/
+
+ /*This sets the font size and removes the default bullets from the ul list. Also sets the overall with of the ul as a percentage of the containing element*/
+nav ul {
+    margin: 0;
+    padding: 1% 0 2% 0;
+    overflow: hidden;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+
+    ul {
+        list-style-type: none;
+    }
+    
+    
+    ul li {
+/*        float:left;*/
+        width: 100%;
+        height: 2em;
+       
+          
+    }
+    
+     
+    ul li a {
+        text-decoration: none;
+        display: block;
+        padding: 0 0 0 0; 
+        font-family: sans-serif;
+        font-size: 1em;
+        text-align: center;
+        color: black;
+    }
+
+/*Sets each a link to display as block. Sets the color of the background of blocks and text and centers text in box*/
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    text-align:center;
+}
+
+a {
+    color: black;
+}
+
+a:hover { 
+    color: #eaeced; 
+}
+
+nav ul li a:visited { 
+    color: #8FBDD4 ; 
+}
+
+/* END nav MENU */
+
+
+.mountain{
+    height: 50vh;
+    width: 100vw;
+    background-image: url(images/mountain.png);
+    background-size: cover;
+    bottom:0px;
+    position: fixed;
+}
