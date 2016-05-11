@@ -2,7 +2,7 @@
     height: auto;
     margin: 0em;
 }
-
+/*this is the home page title*/
 h1 {
     font-family: 'Carton', serif;
     color: #084033;
@@ -32,30 +32,51 @@ h4 {
     padding: 1.5% 0 0% 0;
     margin: none;
 }
+.p5{
+    font-family: Avenir;
+    font-size: 1.1em;
+    line-height: 2em;
+    text-align: center;
+    padding: 1em;
+}
+.p4{
+    font-family: Avenir;
+    font-size: 1.5em;
+    line-height: 1.8em;
+    text-align: center;
+    padding: 1em;
+}
 .p3 {
     font-family: Avenir;
     font-size: 2em;
     line-height: 1.8em;
     text-align: center;
-    padding: 1em;
+    padding: .5em;
 }
 .p2   {
     font-family: Avenir;
-    font-size: 2.5em;
+    font-size: 3em;
     line-height: 1.8em;
     text-align: center;
     padding: 1em;
 }
 p {
     font-family: Avenir;
-    font-size: .55em;
-    line-height: 1.5em;
+    font-size: .75em;
+    line-height: 1.35em;
     text-align: center;
     padding: 1em;
-    margin: 2.5em;
+    margin: 1em;
 }
 
-
+a{
+    font-family: Avenir;
+    font-size: .7em;
+    line-height: 1.35em;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+}
 img{width: 40%;
     height: 40%;
     padding: 0% 0% 0% 0%;
@@ -156,7 +177,7 @@ footer{
     font-size: 2em
 }
 .mountain{
-    height: 50vh;
+    height: 43vh;
     width: 100vw;
     background-image: url(images/mountain.png);
     background-size: cover;
